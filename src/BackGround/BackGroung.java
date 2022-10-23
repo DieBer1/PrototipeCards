@@ -19,6 +19,7 @@ public class BackGroung extends javax.swing.JFrame {
         initComponents();
     }
     Boolean estado=false;
+    Boolean sino=false;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -73,21 +74,24 @@ public class BackGroung extends javax.swing.JFrame {
     }//GEN-LAST:event_boton1MouseClicked
 
     private void boton1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton1MouseEntered
-        if(estado!=true)
+        if(estado==false)
         {
+            
                 if(evt.getSource()==boton1)
-            {
-                boton1.setLocation(1000, 600);
-            }
+                {
+                    boton1.setBounds(900, 500, 500, 400);
+                    
+                }
+            
         }
     }//GEN-LAST:event_boton1MouseEntered
 
     private void boton1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton1MouseExited
-    if(estado!=true)
+    if(estado==false)
         {
             if(evt.getSource()==boton1)
             {
-                boton1.setLocation(1000, 650);
+                boton1.setBounds(1000, 650, 300, 300);
             }
         }
     }//GEN-LAST:event_boton1MouseExited
@@ -129,6 +133,6 @@ public class BackGroung extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Fondo;
-    private javax.swing.JButton boton1;
+    public javax.swing.JButton boton1;
     // End of variables declaration//GEN-END:variables
 }
