@@ -52,7 +52,7 @@ public class BackGroung extends javax.swing.JFrame {
                 boton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 650, 300, 300));
+        getContentPane().add(boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 680, 300, 300));
 
         Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Fondo.jpg"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 2000, 980));
@@ -91,7 +91,7 @@ public class BackGroung extends javax.swing.JFrame {
         {
             if(evt.getSource()==boton1)
             {
-                boton1.setBounds(1000, 650, 300, 300);
+                boton1.setBounds(1000, 680, 300, 300);
             }
         }
     }//GEN-LAST:event_boton1MouseExited
