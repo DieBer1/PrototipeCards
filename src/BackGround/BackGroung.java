@@ -29,11 +29,15 @@ public class BackGroung extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton1 = new javax.swing.JButton();
         boton1 = new javax.swing.JButton();
         Fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Calaca.png"))); // NOI18N
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 850, 160, 130));
 
         boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Calaca.png"))); // NOI18N
         boton1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -134,5 +138,6 @@ public class BackGroung extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Fondo;
     public javax.swing.JButton boton1;
+    private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
